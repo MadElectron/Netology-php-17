@@ -1,5 +1,7 @@
 <?php 
 
+namespace Model;
+
 class Task {
     private static $allowedOrders = ['asc', 'desc'];
     private static $allowedColumns = ['description', 'date_added', 'is_done'];
